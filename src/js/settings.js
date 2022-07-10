@@ -11,15 +11,15 @@ export const select = {
   links: '.nav-link',
   hidden: 'hidden',
 };
-  
+
 export const settings = {
   db: {
     url: '//' + window.location.hostname + (window.location.hostname=='localhost' ? ':3131' : ''),
     data: 'data',
   }
 };
-  
-  
+
+
 export const templates = {
   productList: Handlebars.compile(document.querySelector(select.productList).innerHTML),
 };

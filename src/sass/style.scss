@@ -5,8 +5,8 @@
 @import '_variables.scss';
 
 //page styles
-@import 'pages/ContactPage';
-@import 'pages/ProductPage';
+@import 'pages/_ContactPage';
+@import 'pages/_ProductPage';
 
 // Common styles
 @import '_layout.scss';

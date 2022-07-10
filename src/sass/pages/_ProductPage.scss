@@ -2,7 +2,7 @@
 
 .products {
   font-family: $font-header;
-  
+
   h2 {
     font-weight: bold;
     font-size: 32px;
@@ -11,7 +11,7 @@
       font-size: 0.875rem;
     }
   }
-  
+
   h2::after {
     display: block;
     content: "";
@@ -20,7 +20,7 @@
     height: 5px;
     background-color: $main-color;
   }
-  
+
   p {
     font-size: 14px;
     color: $dark-color;
@@ -28,7 +28,7 @@
     padding-left: 130px;
     margin-top: -15px;
   }
-  
+
   .row {
     display: flex;
     @media (max-width: 599px){
@@ -37,24 +37,24 @@
       }
     }
   }
-  
+
   .between {
     @media (max-width: 599px){
       flex-flow: row-reverse wrap-reverse;
     }
   }
-  
+
   .container .row h1 {
     padding: 96px 0 0 0;
     text-align: center;
   }
-  
+
   .stamp {
     margin: 0 50px 50px 0;
     visibility: hidden;
   }
 }
-  
+
 .row {
   .parameters {
     padding-left: 15px;
@@ -65,18 +65,18 @@
     @media (max-width: 599px) {
       font-size: 0.875rem;
     }
-  
+
     span {
       color: $main-color;
     }
   }
-  
+
   .visible {
     visibility: visible;
     box-shadow: none;
   }
 }
-  
+
 .product {
   img {
     margin: 0;
@@ -85,7 +85,7 @@
     height: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
-  
+
   p{
     @media (max-width: 599px) {
       padding-left: 0;
